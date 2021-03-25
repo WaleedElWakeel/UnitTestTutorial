@@ -19,7 +19,7 @@ namespace CarsAPITests
             var car = new Car(4, CarType.BMW, 50);
 
             var actualTime = carService.TimeToCoveredProvidedDistance(car, 100);
-            var expected = 2;
+            var expected = 2; 
 
             Assert.AreEqual(expected, actualTime);
         }
