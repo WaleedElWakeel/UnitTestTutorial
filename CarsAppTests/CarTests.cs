@@ -85,7 +85,8 @@ namespace CarsAppTests
 
             //Assert.AreSame(car, car2);
             Assert.AreNotSame(car, car2);
-
+            
+            // testing singlteon
             // Are same check reference, Are Equal can compare type and values, try
 
         }
@@ -167,7 +168,7 @@ namespace CarsAppTests
             carStore2.Cars.Add(c3);
             carStore2.Cars.Add(c4);
 
-
+            
             CollectionAssert.AreEqual(carStore2.Cars, carStore1.Cars);
             //CollectionAssert.AreEqual(carStore2.Cars, carStore1.Cars);
         }
